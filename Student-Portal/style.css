@@ -1,0 +1,919 @@
+body {
+    background-color: rgb(49, 49, 108);
+}
+
+.container {
+    width: 1024px;
+}
+
+.logo-parent {
+    height: 80px;
+    background-color: rgba(0, 0, 0, 0.571);
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 10px;
+}
+
+.logo-child {
+    width: 500px;
+    height: 100px;
+}
+
+.logo-child,
+img,
+p {
+    padding-top: 5px;
+    padding-left: 20px;
+    float: left;
+    color: white;
+}
+
+.btn-danger {
+    margin-top: 60px;
+    margin-left: -60px;
+}
+
+.program-parent {
+    height: 1000px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.program-left {
+    width: 220px;
+    height: 620px;
+}
+
+.program-right {
+    height: 1200px;
+    width: 990px;
+    justify-content: space-between;
+}
+
+
+.program-left,
+.text {
+    padding-top: 20px;
+    color: yellow;
+    margin-bottom: 20px;
+}
+
+.text {
+    padding-bottom: 95px;
+}
+
+.text,
+p {
+    font-size: small;
+}
+
+.program-left-child,
+i {
+    padding-left: 10px;
+    margin-top: 5px;
+    font-size: small;
+    margin-right: 10px;
+}
+
+.fa-solid {
+    color: lightgray;
+}
+
+.fa-sharp {
+    color: lightgray;
+}
+
+.fa-regular {
+    color: lightgray;
+}
+
+.program-left-child,
+a {
+    text-decoration: none;
+    color: lightgray;
+    font-weight: 400;
+}
+
+.program-right,
+h3 {
+    padding-top: 10px;
+    padding-left: 30px;
+}
+
+.program-right,
+a {
+    justify-content: flex-end;
+}
+
+.program-batch {
+    width: 930px;
+    height: 250px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.program-batch-left-child {
+    width: 100px;
+    height: 250px;
+    background-color: rgba(0, 0, 0, 0.235);
+}
+
+.fa-graduation-cap {
+    color: darkgray;
+}
+
+.program-right-text {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 10px;
+}
+
+.program-right-text,
+h4 {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+.program-batch-right-child {
+    width: 950px;
+    height: 250px;
+    background-color: lightgray;
+}
+
+.program-batch-right-text1 {
+    height: 70px;
+    width: 850px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.program-batch-right-text2 {
+    height: 70px;
+    width: 850px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+
+}
+
+.text-decendent1 {
+    width: 400px;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.text-antecedent1 {
+    width: 250px;
+    height: 70px;
+    padding-top: -20px;
+}
+
+.btn-warning {
+    margin-top: -15px;
+    margin-left: 40px;
+}
+
+.text-antecedent2 {
+    width: 200px;
+    height: 60px;
+}
+
+.text-decendent2 {
+    width: 400px;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.text-antecedent3 {
+    width: 100px;
+    height: 60px;
+}
+
+.text-antecedent4 {
+    width: 110px;
+    height: 60px;
+}
+
+.text-antecedent5 {
+    width: 120px;
+    height: 60px;
+}
+
+.program-batch-right-text3 {
+    height: 70px;
+    width: 850px;
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid rgba(117, 35, 35, 0.329);
+}
+
+.text3-decendent {
+    min-width: 350px;
+    height: 70px;
+}
+
+.tab-parent {
+    border-top: 1 px solid red;
+    margin-top: 40px;
+    width: 300px;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.tab-child {
+    width: 150px;
+    height: 70px;
+}
+
+.tab-child,
+p {
+    margin-top: -14px;
+    margin-left: -10px;
+}
+
+#tab-button1 {
+    margin: 10px;
+    border-radius: 5px;
+
+}
+
+#tab-button2 {
+    margin: 10px;
+}
+
+.semester-parent {
+    height: 250px;
+    width: 930px;
+    background-color: rgba(0, 0, 0, 0.308);
+}
+
+.semester-top {
+    height: 50px;
+    width: 930px;
+    background-color: green;
+    margin-bottom: 10px;
+}
+
+.semester-top-table {
+    height: 150px;
+    width: 900px;
+    margin-left: 15px;
+}
+
+th,
+td {
+    border: 1px solid rgba(242, 239, 239, 0.205);
+    text-align: left;
+    padding: 5px;
+    color: white;
+}
+
+#yellow-btn {
+    margin: 10px;
+}
+
+.note-parent {
+    height: 450px;
+    width: 930px;
+    background-color: rgba(0, 0, 0, 0.571);
+    padding-top: 10px;
+}
+
+.note-child {
+    height: 130px;
+    width: 900px;
+    background-color: rgba(169, 169, 169, 0.427);
+    margin-left: 15px;
+    margin-bottom: 15px;
+}
+
+.fa-square-plus {
+    color: darkgray;
+    margin-left: -5px;
+}
+
+.important-note {
+    height: 270px;
+    width: 900px;
+    background-color: rgba(0, 255, 255, 0.644);
+    margin-left: 15px;
+    margin-bottom: 10px;
+}
+
+
+/* Personal Information Part */
+
+.personal-parent {
+    height: 1000px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.personal-left {
+    width: 220px;
+    height: 620px;
+}
+
+.personal-right {
+    height: 1200px;
+    width: 990px;
+    justify-content: space-between;
+}
+
+.pic-head {
+    width: 950px;
+    height: 150px;
+    background-image: linear-gradient(#FF3CAC, #784BA0, #2B86C5);
+    margin-left: 16px;
+}
+
+.pic-bottom {
+    width: 950px;
+    height: 40px;
+    background-color: rgba(0, 0, 0, 0.315);
+    margin-left: 16px;
+}
+
+.personal-info {
+    margin-top: 15px;
+    width: 950px;
+    height: 50px;
+    margin-left: 16px;
+    border-bottom: 1px solid rgba(211, 211, 211, 0.345);
+    margin-bottom: 15px;
+}
+
+#table1 {
+    border: none;
+    margin-left: 16px;
+    border-collapse: separate;
+    margin-bottom: 15px;
+}
+
+.office-account {
+    margin-top: 15px;
+    width: 950px;
+    height: 50px;
+    margin-left: 16px;
+    border-bottom: 1px solid rgba(211, 211, 211, 0.345);
+    margin-bottom: 15px;
+}
+
+#table2 {
+    border: none;
+    margin-left: 16px;
+    border-collapse: separate;
+    margin-bottom: 15px;
+}
+
+.wifi-info {
+    margin-top: 15px;
+    width: 950px;
+    height: 50px;
+    margin-left: 16px;
+    border-bottom: 1px solid rgba(211, 211, 211, 0.345);
+    margin-bottom: 15px;
+}
+
+#table3 {
+    border: none;
+    margin-left: 16px;
+    border-collapse: separate;
+    margin-bottom: 25px;
+    margin-top: 20px;
+    margin-left: -5px;
+}
+
+.contact-info {
+    margin-top: 60px;
+    width: 950px;
+    height: 50px;
+    margin-left: 12px;
+    border-bottom: 1px solid rgba(211, 211, 211, 0.345);
+    margin-bottom: 15px;
+}
+
+#table4 {
+    border: none;
+    margin-left: 16px;
+    border-collapse: separate;
+    margin-bottom: 15px;
+}
+
+.guardian-info {
+    margin-top: 20px;
+    width: 950px;
+    height: 50px;
+    margin-left: 12px;
+    border-bottom: 1px solid rgba(211, 211, 211, 0.345);
+    margin-bottom: 15px;
+}
+
+#table5 {
+    border: none;
+    border-collapse: separate;
+    margin-top: 20px;
+}
+
+.end-personal {
+    margin-top: 150px;
+    width: 950px;
+    height: 50px;
+    border-bottom: 1px solid rgba(211, 211, 211, 0.345);
+}
+
+/*  Fee part */
+
+.fee-parent {
+    height: 500px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.fee-left {
+    width: 220px;
+    height: 620px;
+}
+
+.fee-right {
+    height: 500px;
+    width: 990px;
+    justify-content: space-between;
+}
+
+.fee-bill-detail {
+    width: 950px;
+    height: 50px;
+    margin-top: 50px;
+    margin-left: 16px;
+    margin-bottom: 100px;
+    border-bottom: 1px solid rgba(211, 211, 211, 0.345);
+}
+
+.fee-bill {
+    width: 950px;
+    height: 50px;
+    margin-top: 50px;
+    margin-left: 10px;
+    background-color: green;
+    margin-bottom: 50px;
+}
+
+#fee-table1 {
+    border: none;
+    border-collapse: separate;
+    width: 950px;
+    margin-left: 20px;
+    margin-bottom: 50px;
+}
+
+
+.pending-request {
+    width: 950px;
+    height: 50px;
+    margin-top: 50px;
+    margin-left: 25px;
+    background-color: green;
+}
+
+#pending-request-table {
+    border: none;
+    border-collapse: separate;
+    width: 950px;
+    margin-left: 20px;
+    margin-bottom: 50px;
+}
+
+
+/* Study Part */
+
+.study-parent {
+    height: 1000px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.study-left {
+    width: 220px;
+    height: 620px;
+    /* background-color: lightcoral; */
+}
+
+.study-right {
+    height: 1000px;
+    width: 990px;
+    /* background-color: violet; */
+    justify-content: space-between;
+}
+
+.study-right-text {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+.study-scheme {
+    width: 950px;
+    height: 80px;
+    background-color: gold;
+    margin-left: 16px;
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.study-scheme-cap-left {
+    height: 80px;
+    width: 90px;
+    background-color: rgba(0, 0, 0, 0.235);
+}
+
+.study-scheme-cap-right {
+    width: 600px;
+    height: 40px;
+    margin-left: 16px;
+}
+
+.study-semester-parent {
+    width: 900px;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 16px;
+    margin-top: 20px;
+}
+
+.semester-child {
+    margin-top: 20px;
+    width: 60px;
+    height: 50px;
+}
+
+.semester-1-head {
+    margin-top: 20px;
+    width: 930px;
+    height: 40px;
+    background-color: black;
+    margin-left: 16px;
+}
+
+.semester-1-body {
+    width: 930px;
+    height: 550px;
+    background-color: rgba(0, 0, 0, 0.329);
+    margin-left: 16px;
+    margin-bottom: 20px;
+}
+
+#semester1-table {
+    margin-left: 10px;
+    margin-right: 5px;
+}
+
+th,
+td {
+    border: 1px solid rgba(242, 239, 239, 0.205);
+    text-align: left;
+    padding: 5px;
+    color: white;
+    margin-left: 50px;
+}
+
+.study-end {
+    margin-top: 60px;
+    width: 950px;
+    height: 50px;
+    border-bottom: 1px solid rgba(211, 211, 211, 0.345);
+}
+
+
+/* PLO CLO Master Map */
+
+.master-parent {
+    height: 1000px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.master-left {
+    width: 220px;
+    height: 620px;
+}
+
+.master-right {
+    height: 1200px;
+    width: 990px;
+    justify-content: space-between;
+}
+
+.master-map {
+    margin-top: 10px;
+    height: 100px;
+    width: 950px;
+    margin-left: 16px;
+    background-color: #2B86C5;
+    display: flex;
+}
+
+.master-map-right-fa {
+    height: 100px;
+    width: 100px;
+    background-color: #dde2e762;
+}
+
+.master-map-right-text {
+    width: 600px;
+    height: 40px;
+}
+
+.contribution {
+    margin-top: 15px;
+    height: 40px;
+    width: 950px;
+    margin-left: 16px;
+    background-color: #2B86C5;
+}
+
+.contribution-table {
+    height: 1200px;
+    width: 950px;
+    margin-left: 16px;
+    background-color: rgba(0, 0, 0, 0.329);
+}
+
+
+#contribution-tab {
+    width: 900px;
+    border: 1px solid rgba(242, 239, 239, 0.205);
+    text-align: left;
+    padding: 5px;
+    color: white;
+    margin-left: 20px;
+}
+
+tr:hover {
+    background-color: rgba(242, 239, 239, 0.205);
+}
+
+
+/* Result Part */
+
+.result-parent {
+    height: 800px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.result-left {
+    width: 220px;
+    height: 620px;
+    
+}
+
+.result-right {
+    height: 600px;
+    width: 990px;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.result-right-text {
+    display: flex;
+    justify-content: space-between;
+    margin:15px;
+}
+
+.result-header {
+    height: 100px;
+    width: 950px;
+    margin-left: 16px;
+    background-color: yellow;
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.result-header-right {
+    height:100px ;
+    width: 100px;
+    background-color: rgba(0, 0, 0, 0.329);
+}
+
+.result-header-left {
+    height:100px ;
+    width: 600px;
+}
+
+.result-info {
+    height: 200px;
+    width: 950px;
+    background-color: rgba(0, 0, 0, 0.329);
+}
+
+
+
+/* PLO CLO Attainment Part */
+
+.plo-parent {
+    height: 1000px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.plo-left {
+    width: 220px;
+    height: 620px;
+}
+
+.master-right {
+    height: 1200px;
+    width: 990px;
+    justify-content: space-between;
+}
+
+.plo-map {
+    margin-top: 10px;
+    height: 100px;
+    width: 950px;
+    margin-left: 16px;
+    background-color: rgba(210, 66, 14, 0.973);
+    display: flex;
+}
+
+.master-map-right-fa {
+    height: 100px;
+    width: 100px;
+    background-color: #dde2e762;
+}
+
+.master-map-right-text {
+    width: 600px;
+    height: 40px;
+}
+
+.plo-contribution {
+    margin-top: 50px;
+    height: 40px;
+    width: 950px;
+    margin-left: 16px;
+    background-color: rgba(210, 66, 14, 0.973);
+}
+
+.contribution-table {
+    height: 1200px;
+    width: 950px;
+    margin-left: 16px;
+    background-color: rgba(0, 0, 0, 0.329);
+}
+
+
+#contribution-tab {
+    width: 900px;
+    border: 1px solid rgba(242, 239, 239, 0.205);
+    text-align: left;
+    padding: 5px;
+    color: white;
+    margin-left: 20px;
+}
+
+tr:hover {
+    background-color: rgba(242, 239, 239, 0.205);
+}
+
+.contact-parent {
+    height: 1000px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact-left {
+    width: 220px;
+    height: 620px;
+    
+}
+
+.contact-right {
+    height: 1200px;
+    width: 990px;
+    justify-content: space-between;
+     /* background-color: violet; */
+}
+
+.student-request {
+    margin-top: 20px;
+    height: 60px;
+    width: 950px;
+    margin-left: 16px;
+    border-bottom: 1px solid rgba(211, 211, 211, 0.345);
+}
+
+.request-type-or-instrcution {
+    height: 250px;
+    width: 950px;
+    margin-left: 16px;
+    display: flex;
+}
+
+.Request-Type {
+    height: 200px;
+    width: 300px;
+}
+
+.Instruction {
+    height: 200px;
+    width: 400px;
+}
+
+#request {
+    margin-top: 5px;
+    margin-left: 20px;
+    padding: 5px 10px;
+}
+
+#instruction {
+    margin-top: 5px;
+    margin-left: 80px;
+}
+
+#semester {
+    margin-top: 5px;
+    margin-left: 20px;
+    padding: 5px 70px;
+}
+
+#remarks {
+    margin-top: 5px;
+    margin-left: 20px;
+}
+
+input[type=text] {
+    padding: 5px 70px;
+    width: 100%;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 0.85rem;
+}
+
+.supporting-document {
+    height: 45px;
+    width: 950px;
+    margin-left: 16px;
+    background-color: green;
+}
+
+#document {
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+input[type=text1] {
+    padding: 1px 1px;
+    margin-left: 15px;
+}
+
+.document-remarks {
+    margin-top: 20px;
+    height: 40px;
+    width: 950px;
+    margin-left: 16px;
+    background-color: lightgray;
+    display: flex;
+}
+
+.remarks {
+    width: 500px;
+    height: 45px;
+}
+
+.file-name {
+    width: 250px;
+    height: 45px;
+}
+
+.view {
+    width: 250px;
+    height: 45px;
+}
+
+input[type="file"] {
+    display: none;
+}
+
+.custom-file-upload {
+    border: 1px solid #ccc;
+    display: inline-block;
+    padding: 6px 12px;
+    cursor: pointer;
+    background-color: white;
+}
+
+#contact-table {
+    margin-left: 15px;
+    margin-top: 20px;
+    background-color: lightgray;
+    border-collapse: separate;
+}

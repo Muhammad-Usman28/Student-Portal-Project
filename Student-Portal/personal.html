@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Portal</title>
+    <!-- Bootstrap Link -->
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+
+    <!-- Own Css Style Sheet -->
+
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Font Awesome Link -->
+
+    <script src="https://kit.fontawesome.com/66f5b32b09.js" crossorigin="anonymous"></script>
+
+</head>
+
+<!-- Header Part -->
+
+<div class="logo-parent">
+    <div class="logo-child sticky-sm-top">
+        <img src="images/National_Textile_University_Logo.png" alt="LOGO" width="70px" height="70px">
+        <p class="fs-3" style="padding-top: 25px;"> <b>Student</b> Portal</p>
+
+
+    </div>
+    <div class="logo-child sticky-sm-top">
+        <details>
+            <summary>
+                <img src="images/student_pic.jpg" alt="Student Pic" class="rounded-circle" style="margin-left: 220px;">
+                <a href="#" style="margin-top: 50px;">Hi,Muhammad Usman</a>
+            </summary>
+            <button type="button" class="btn btn-danger">LOG OUT</button>
+        </details>
+    </div>
+</div>
+
+<!-- Personal Parent -->
+
+<div class="personal-parent">
+    <div class="personal-left sticky-sm-top">
+
+        <img src="images/student_pic.jpg" alt="Student Pic" width="50px" height="50px" class="rounded-circle">
+        <div class="text">
+            <p class="fs-6" style="color: white; padding-bottom: 10px;">Muhammad Usman</p>
+            <p class="fs-6" style="color: yellow;">21-NTU-CS-1271</p>
+            <p class="font "
+                style="color: yellow; margin-top: -20px; border-bottom: 1px solid rgba(228, 217, 217, 0.329)  ">
+                Department of Computer Science</p>
+        </div>
+
+        <i class="fa-solid fa-gauge-simple fa-1x"></i>
+        <a href="personal.html" style="font-size: small;">Dashboard</a><br><br>
+
+        <i class="fa-solid fa-user fa-1x"></i>
+        <a href="personal.html" style="font-size: small;">Personal Profile</a><br><br>
+
+        <i class="fa-regular fa-newspaper fa-1x"></i>
+        <a href="fee.html" style="font-size: small;">Fee Vouchers</a><br><br>
+
+        <i class="fa-sharp fa-solid fa-book-open fa-1x"></i>
+        <a href="study.html" style="font-size: small;">Scheme of Study</a><br><br>
+
+        <i class="fa-regular fa-map fa-1x"></i>
+        <a href="master.html" style="font-size: small;">PLO-CLO Master Map</a><br><br>
+
+        <i class="fa-solid fa-link fa-1x"></i>
+        <a href="course.html" style="font-size: small;">Your Enrolled Course(s)</a><br><br>
+
+        <i class="fa-solid fa-square-poll-horizontal fa-1x"></i>
+        <a href="result.html" style="font-size: small;">Grade Point Transcript</a><br><br>
+
+        <i class="fa-solid fa-trophy fa-1x"></i>
+        <a href="plo.html" style="font-size: small;">PLO-CLO Attainment</a><br><br>
+
+        <i class="fa-solid fa-question fa-1x"></i>
+        <a href="contact.html" style="font-size: small;">Contact Us</a><br><br>
+
+        <i class="fa-solid fa-right-from-bracket fa-1x"></i>
+        <a href="logout.html" style="font-size: small;">Log Out</a><br><br>
+    </div>
+
+    <div class="personal-right">
+        <div class="pic-head">
+            <img src="images/img1.jpg" alt="Student Pic" width="150px" height="150px"
+                style="padding-top: 30px; padding-right: 20px;">
+            <h5 style="padding-top: 40px; margin-left: 20px; color: white;">Muhammad Usman</h5>
+            <h5 style="font-size: small; color: white;
+                ">21-NTU-CS-1271</h5>
+            <h5 style="font-size: small; color: white;">
+                Bachelor of Science in Computer Science
+                <i class="fa-sharp fa-solid fa-arrow-right fa-1x" style="color: darkgray; margin-left: -10px;"></i>
+                (Computer Science)
+            </h5>
+            <h5 style="font-size: small; color: yellow;">Morning <i class="fa-sharp fa-solid fa-arrow-right fa-1x"
+                    style="color:yellow; margin-left: -10px;"></i> Section B</h5>
+        </div>
+        <div class="pic-bottom">
+        </div>
+
+        <div class="personal-info">
+            <i class="fa-solid fa-user fa-2x" style="color: yellow;"></i>
+            <a href="#" style="color: yellow; font-size: large; font-weight: bold;"> Personal Information</a>
+        </div>
+
+        <!-- Personal info table -->
+
+
+            <table id="table1">
+                <tr>
+                    <td  style="width: 250px; background-color: rgba(211, 211, 211, 0.299); font-size: small; font-weight: bold;">Full Name</td>
+                    <td style="width: 230px; background-color:  rgba(211, 211, 211, 0.299);; color: yellow; font-size: small;">Muhammad Usman</td>
+                    <td style="width: 250px; background-color:  rgba(211, 211, 211, 0.299); font-size: small; font-weight: bold;">Registration #</td>
+                    <td style="width: 200px; background-color:  rgba(211, 211, 211, 0.299);; color: yellow; font-size: small;">21-NTU-CS-1271</td>
+                </tr>
+
+                <tr>
+                    <td style="width: 250px; background-color: rgba(211, 211, 211, 0.299); font-size: small; font-weight: bold; ">CNIC #</td>
+                    <td style="width: 230px; background-color:  rgba(211, 211, 211, 0.299); color: yellow; font-size: small; font-weight: bold;">33100-4567894-3</td>
+                    <td style="width: 250px; background-color:  rgba(211, 211, 211, 0.299); font-size: small; font-weight: bold;">Date of Birth</td>
+                    <td style="width: 200px; background-color:  rgba(211, 211, 211, 0.299);; color: yellow;
+                    font-size: small; font-weight: bold;">28-July-2003</td>
+                </tr>
+
+                <tr>
+                    <td style="width: 250px; background-color: rgba(211, 211, 211, 0.299); font-size: small; font-weight: bold; ">Gender</td>
+                    <td style="width: 230px; background-color:  rgba(211, 211, 211, 0.299); color: yellow; font-size: small; font-weight: bold;">Male</td>
+                    <td style="width: 250px; background-color:  rgba(211, 211, 211, 0.299); font-size: small; font-weight: bold;">Relegion</td>
+                    <td style="width: 200px; background-color:  rgba(211, 211, 211, 0.299);; color: yellow;
+                    font-size: small; font-weight: bold;">Muslim</td>
+                </tr>
+
+                <tr>
+                    <td style="width: 250px; background-color: rgba(211, 211, 211, 0.299); font-size: small; font-weight: bold; ">Employee Son</td>
+                    <td style="width: 230px; background-color:  rgba(211, 211, 211, 0.299); color: yellow; font-size: small; font-weight: bold;">No</td>
+                    <td style="width: 250px; background-color:  rgba(211, 211, 211, 0.299); font-size: small; font-weight: bold;">Blood Group</td>
+                    <td style="width: 200px; background-color:  rgba(211, 211, 211, 0.299);; color: yellow;
+                    font-size: small; font-weight: bold;">B+</td>
+                </tr>
+            </table>
+
+            <!-- Office Info -->
+            <div class="office-account">
+                <i class="fa-solid fa-book fa-2x" style="color: yellow;"></i>
+                <a href="#" style="color: yellow; font-size: large; font-weight: bold;"> Office 365 / Microsoft Team Information
+                </a>
+            </div>
+
+            <!-- Office Table -->
+
+            <table id="table2">
+                <tr>
+                    <td style="width: 250px; background-color: rgba(211, 211, 211, 0.299); font-size: small; font-weight: bold; ">Office 365 Emai</td>
+                    <td style="width: 230px; background-color:  rgba(211, 211, 211, 0.299); color: yellow; font-size: small; font-weight: bold;">FSJICSPM1985404</td>
+                    <td style="width: 250px; background-color:  rgba(211, 211, 211, 0.299); font-size: small; font-weight: bold;">Office 365 Password</td>
+                    <td style="width: 200px; background-color:  rgba(211, 211, 211, 0.299);; color: yellow;
+                    font-size: small; font-weight: bold;">Qdgj789</td>
+                </tr>
+            </table>
+
+            <!-- Wifi Info -->
+
+            <div class="wifi-info">
+                <i class="fa-solid fa-wifi fa-2x" style="color: yellow;"></i>
+                <a href="#" style="color: yellow; font-size: large; font-weight: bold;"> NTU Eduroam WiFi Information</a>
+
+                <!-- wifi Table -->
+
+                <table id="table3">
+                    <tr>
+                        <td style="width: 250px; background-color: rgba(211, 211, 211, 0.299); font-size: small; font-weight: bold; ">Eduroam Username</td>
+                        <td style="width: 230px; background-color:  rgba(211, 211, 211, 0.299); color: yellow; font-size: small; font-weight: bold;">FSJPM1985404</td>
+                        <td style="width: 250px; background-color:  rgba(211, 211, 211, 0.299); font-size: small; font-weight: bold;">Eduroam Password</td>
+                        <td style="width: 200px; background-color:  rgba(211, 211, 211, 0.299);; color: yellow;
+                        font-size: small; font-weight: bold;">u9678jhk</td>
+                    </tr>
+                </table>
+            </div>
+
+            <!-- Contact Information Part -->
+
+            <div class="contact-info">
+                <i class="fa-regular fa-address-book fa-2x" style="color: yellow;"></i>
+                <a href="#" style="color: yellow; font-size: large; font-weight: bold;">  Contact Information</a>
+            </div>
+
+            <!--  Contact table -->
+
+            <table id="table4">
+
+                <tr>
+                    <td  style="width: 250px; background-color: rgba(211, 211, 211, 0.299); font-size: small; font-weight: bold;">Mobile No.</td>
+                    <td style="width: 230px; background-color:  rgba(211, 211, 211, 0.299);; color: yellow; font-size: small;">+92333675609</td>
+                    <td style="width: 250px; background-color:  rgba(211, 211, 211, 0.299); font-size: small; font-weight: bold;">NTU Official Email</td>
+                    <td style="width: 200px; background-color:  rgba(211, 211, 211, 0.299);; color: yellow; font-size: small;">FSJICSPM1985404</td>
+                </tr>
+
+                <tr>
+                    <td style="width: 250px; background-color: rgba(211, 211, 211, 0.299); font-size: small; font-weight: bold; ">Private Email</td>
+                    <td style="width: 230px; background-color:  rgba(211, 211, 211, 0.299); color: yellow; font-size: small; font-weight: bold;">usmanirfan656@gmail.com</td>
+                    <td style="width: 250px; background-color:  rgba(211, 211, 211, 0.299); font-size: small; font-weight: bold;">
+                        Nationality</td>
+                    <td style="width: 200px; background-color:  rgba(211, 211, 211, 0.299);; color: yellow;
+                    font-size: small; font-weight: bold;">Pakistan</td>
+                </tr>
+
+                <tr>
+                    <td style="width: 250px; background-color: rgba(211, 211, 211, 0.299); font-size: small; font-weight: bold; ">Province</td>
+                    <td style="width: 230px; background-color:  rgba(211, 211, 211, 0.299); color: yellow; font-size: small; font-weight: bold;">Punjab</td>
+                    <td style="width: 250px; background-color:  rgba(211, 211, 211, 0.299); font-size: small; font-weight: bold;">
+                        Domicile</td>
+                    <td style="width: 200px; background-color:  rgba(211, 211, 211, 0.299);; color: yellow;
+                    font-size: small; font-weight: bold;">Faisalabad</td>
+                </tr>
+
+                <tr>
+                    <td style="width: 250px; background-color: rgba(211, 211, 211, 0.299); font-size: small; font-weight: bold; ">Permanent Address</td>
+                    <td style="width: 230px; background-color:  rgba(211, 211, 211, 0.299); color: yellow; font-size: small; ">
+                        House No P-166 Sreet No 4 Partab Nagar Jhang Road Fsd</td>
+                    <td style="width: 250px; background-color:  rgba(211, 211, 211, 0.299); font-size: small; font-weight: bold;">
+                        Present Address</td>
+                    <td style="width: 200px; background-color:  rgba(211, 211, 211, 0.299);; color: yellow;
+                    font-size: small;">House No P-166 Sreet No 4 Partab Nagar Jhang Road Fsd</td>
+                </tr>
+
+            </table>
+
+            <!-- Guardian Information -->
+
+            <div class="guardian-info">
+                <i class="fa-solid fa-people-line fa-2x" style="color: yellow;"></i>
+                <a href="#" style="color: yellow; font-size: large; font-weight: bold;"> Gaurdian Information
+                </a>
+                
+                <!--  Guardian Table -->
+
+                <table id="table5">
+                
+                    
+                <tr>
+                    <td  style="width: 250px; background-color: rgba(211, 211, 211, 0.299); font-size: small; font-weight: bold;">Father's Name.</td>
+                    <td style="width: 230px; background-color:  rgba(211, 211, 211, 0.299);; color: yellow; font-size: small;">Irfan Mehmood</td>
+                    <td style="width: 250px; background-color:  rgba(211, 211, 211, 0.299); font-size: small; font-weight: bold;">Mother's Name</td>
+                    <td style="width: 200px; background-color:  rgba(211, 211, 211, 0.299);; color: yellow; font-size: small;">Naila Noureen</td>
+                </tr>
+
+                <tr>
+                    <td style="width: 250px; background-color: rgba(211, 211, 211, 0.299); font-size: small; font-weight: bold; ">Father / Gaurdian Contact</td>
+                    <td style="width: 230px; background-color:  rgba(211, 211, 211, 0.299); color: yellow; font-size: small; font-weight: bold;">
+                    +92333456789</td>
+                    <td style="width: 250px; background-color:  rgba(211, 211, 211, 0.299); font-size: small; font-weight: bold;">
+                        Father / Gaurdian Monthly Income</td>
+                    <td style="width: 200px; background-color:  rgba(211, 211, 211, 0.299);; color: yellow;
+                    font-size: small; font-weight: bold;">50000</td>
+                </tr>
+                </table>
+            </div>
+            <div class="end-personal">
+
+            </div>
+    </div>
+</div>
+
+<body>
+
+</body>
+
+</html>

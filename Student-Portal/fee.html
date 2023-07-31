@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Portal</title>
+
+     <!-- Bootstrap Link -->
+
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+     integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+
+     <!-- Own Css Style Sheet -->
+
+     <link rel="stylesheet" href="style.css">
+
+     <!-- Font Awesome Link -->
+
+     <script src="https://kit.fontawesome.com/66f5b32b09.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    
+     <!-- Header Part -->
+
+     <div class="logo-parent sticky-sm-top">
+        <div class="logo-child">
+            <img src="images/National_Textile_University_Logo.png" alt="LOGO" width="70px" height="70px">
+            <p class="fs-3" style="padding-top: 25px;"> <b>Student</b> Portal</p>
+            
+
+        </div>
+        <div class="logo-child sticky-sm-top">
+            <details>
+                <summary>
+                    <img src="images/student_pic.jpg" alt="Student Pic" class="rounded-circle" style="margin-left: 220px;">
+                    <a href="#" style="margin-top: 50px;">Hi,Muhammad Usman</a>
+                </summary>
+                <button type="button" class="btn btn-danger">LOG OUT</button>
+              </details>
+        </div>
+     </div>
+
+     <!-- Fee Parent -->
+
+     <div class="fee-parent">
+        <div class="fee-left sticky-sm-top">
+
+            <img src="images/student_pic.jpg" alt="Student Pic" width="50px" height="50px" class="rounded-circle">
+            <div class="text">
+                <p class="fs-6" style="color: white; padding-bottom: 10px;">Muhammad Usman</p>
+                <p class="fs-6" style="color: yellow;">21-NTU-CS-1271</p>
+                <p class="font " style="color: yellow; margin-top: -20px; border-bottom: 1px solid rgba(228, 217, 217, 0.329)  ">Department of Computer Science</p>
+            </div>
+
+            <i class="fa-solid fa-gauge-simple fa-1x"></i>
+            <a href="fee.html" style="font-size: small;">Dashboard</a><br><br>
+    
+            <i class="fa-solid fa-user fa-1x"></i>
+            <a href="personal.html" style="font-size: small;">Personal Profile</a><br><br>
+    
+            <i class="fa-regular fa-newspaper fa-1x"></i>
+            <a href="fee.html" style="font-size: small;">Fee Ledger</a><br><br>
+    
+            <i class="fa-sharp fa-solid fa-pen-to-square fa-1x"></i>
+            <a href="contact.html" style="font-size: small;">Request</a><br><br>
+            
+        </div>
+
+        <div class="fee-right">
+
+            <div class="fee-bill-detail">
+                <h2 style="color: white; font-weight: bold; padding-left: 20px;">FEE BILL DETAIL</h2>
+
+                <div class="fee-bill">
+                    <h5 style="color: white; font-weight: bold; padding-left: 20px; padding-top: 10px;">FEE BILLS</h5>
+                </div>
+            </div>
+            <p style="margin-top: 5px; margin-left: 20px; margin-bottom: 10px;">1 record(s) found</p>
+
+             <!--  fee Table -->
+
+             <table id="fee-table1">
+                <tr>
+                    <td style="width: 80px; background-color: darkgray; font-size: small; font-weight: bold;  ">Bill Date</td>
+                    <td style="width: 100px;background-color: darkgray; font-size: small; font-weight: bold;">Bill No.</td>
+                    <td style="width: 100px;background-color: darkgray; font-size: small; font-weight: bold;">Due Date</td>
+                    <td style="width: 80px;background-color: darkgray; font-size: small; font-weight: bold;">Type</td>
+                    <td style="width: 80px;background-color: darkgray; font-size: small; font-weight: bold;">Total</td>
+                    <td style="width: 100px;background-color: darkgray; font-size: small; font-weight: bold;">Status</td>
+                    <td style="width: 120px;background-color: darkgray; font-size: small; font-weight: bold;">Payment Date</td>
+                    <td style="width: 80px;  background-color: darkgray; font-size: small; font-weight: bold;">Print</td>
+                    <td style="width: 100px; background-color: darkgray; font-size: small; font-weight: bold;">Date Extend</td>
+                </tr>
+
+                <tr>
+                    <td style="width: 100px; font-size: small; ">03-Feb-2023</td>
+                    <td style="width: 100px; font-size: small ;">33456846</td>
+                    <td style="width: 100px ;font-size: small;">24-Feb-2023</td>
+                    <td style="width: 80px; font-size: small">FB</td>
+                    <td style="width: 80px; font-size: small">60,750</td>
+                    <td style="width: 100px; font-size: small">Cleared</td>
+                    <td style="width: 120px; font-size: small">21-Feb-2023</td>
+                    <td style="width: 80px; font-size: small"></td>
+                    <td style="width: 100px; font-size: small"></td>
+                </tr>
+             </table>
+
+             <div class="pending-request">
+                <h5 style="color: white; font-weight: bold; padding-left: 20px; padding-top: 10px;">PENDING REQUEST</h5>
+            </div>
+
+            <p style="margin-top: 5px; margin-left: 20px; margin-bottom: 10px;">no record(s) found</p>
+
+            <!-- Pending Request Table -->
+
+            <table id="pending-request-table">
+
+                <tr>
+                    <td style="width: 80px; background-color: darkgray; font-size: small; font-weight: bold;  ">Date</td>
+                    <td style="width: 100px;background-color: darkgray; font-size: small; font-weight: bold;">Request No</td>
+                    <td style="width: 100px;background-color: darkgray; font-size: small; font-weight: bold;">Type</td>
+                    <td style="width: 80px;background-color: darkgray; font-size: small; font-weight: bold;">Request Details</td>
+                    <td style="width: 80px;background-color: darkgray; font-size: small; font-weight: bold;">Status</td>
+                    <td style="width: 100px;background-color: darkgray; font-size: small; font-weight: bold;">Curr. Dept.</td>
+                    <td style="width: 120px;background-color: darkgray; font-size: small; font-weight: bold;">View</td>
+                </tr>
+            </table>
+        </div>
+     </div>
+
+</body>
+</html>
